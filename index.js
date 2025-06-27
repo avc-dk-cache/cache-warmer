@@ -6,11 +6,11 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const DOMAINS_MAP = {
-  no: "https://www.addingvalue.no",
+  no: "https://www.addingvalue.dk",
 };
 
 const PROXIES = {
-  no: process.env.BRD_PROXY_NO,
+  dk: process.env.BRD_PROXY_DK,
 };
 
 const USER_AGENTS = {
