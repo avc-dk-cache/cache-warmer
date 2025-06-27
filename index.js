@@ -6,7 +6,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const DOMAINS_MAP = {
-  no: "https://www.addingvalue.dk",
+  dk: "https://www.addingvalue.dk",
 };
 
 const PROXIES = {
@@ -14,7 +14,7 @@ const PROXIES = {
 };
 
 const USER_AGENTS = {
-  no: "AddingValue-NO-CacheWarmer/1.0",
+  dk: "AddingValue-DK-CacheWarmer/1.0",
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
